@@ -52,8 +52,8 @@
 }
 
 .frame-group {
-  top: 31%;
-  left: 35%;
+  top: 37%;
+  left: 30%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
