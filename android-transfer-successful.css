@@ -1,5 +1,8 @@
 @media only screen  and (max-width: 760px) {
   /* Your styles for small screens here */
+  body{
+    overflow-y: auto;
+  }
 
 
   .android-transfer-successful-child {
