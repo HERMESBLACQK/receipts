@@ -52,7 +52,7 @@
 }
 
 .frame-group {
-  top: 37%;
+  top: 40%;
   left: 20%;
   display: flex;
   flex-direction: column;
@@ -121,7 +121,7 @@
 }
 .text {
   position: absolute;
-  top: 15%;
+  top: 25%;
   left: 5%;
   width: 90%;
   flex-direction: column;
