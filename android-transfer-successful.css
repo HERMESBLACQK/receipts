@@ -4,7 +4,6 @@
 
   .android-transfer-successful-child {
     position: absolute;
-    border: 2px solid black;
     top: 116px;
     left: 5%;
     border-radius: var(--br-5xs);
@@ -124,7 +123,6 @@
     text-align: center;
     font-size: var(--font-size-xl);
     color: var(--color-black);
-    border: 2px solid red;
   }
   .download1 {
     position: relative;
@@ -157,7 +155,6 @@
     font-size: var(--font-size-sm);
     color: var(--color-gray);
     font-family: var(--font-inter);
-    border: 2px solid red;
   }
   
 
@@ -165,30 +162,6 @@
 
 @media only screen and (min-width: 401px) and (max-width: 767px) {
   /* Your styles for medium screens here */
-
-  .android-transfer-successful {
-    width: 100%;
-    position: relative;
-    background-color: var(--color-aliceblue);
-    height: 951px;
-    overflow-y: scroll;
-    text-align: left;
-    font-size: var(--font-size-sm);
-    color: var(--color-gray);
-    font-family: var(--font-inter);
-    border: 2px solid red;
-  }
-  .android-transfer-successful-child {
-    position: absolute;
-    border: 2px solid black;
-    top: 116px;
-    left: 5%;
-    border-radius: var(--br-5xs);
-    background-color: var(--color-white);
-    width: 90%;
-    height: 90%;
-  }
-
 
 
 
