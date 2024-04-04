@@ -3,11 +3,11 @@
   position: relative;
   height: 24px;
 }
-.arrow-left-wrapper,
-.notification-wrapper {
+.arrow-left-container,
+.notification-container {
   position: absolute;
   top: 48px;
-  left: 73px;
+  left: 10%;
   border-radius: var(--br-5xs);
   background-color: var(--color-white);
   box-shadow: -1px 4px 4px rgba(0, 0, 0, 0.15);
@@ -17,72 +17,18 @@
   justify-content: flex-start;
   padding: var(--padding-3xs) var(--padding-mini);
 }
-.notification-wrapper {
-  left: 1296px;
+.notification-container {
+  left: 90%;
 }
-.receipts {
-  position: absolute;
-  top: 59px;
-  left: calc(50% - 56px);
-  font-size: 18px;
-  letter-spacing: 0.02em;
-  border: 2px solid red;
-}
-.recipts-child {
-  position: absolute;
-  top: 147px;
-  left: calc(50% - 300px);
-  border-radius: var(--br-base);
-  background-color: var(--color-white);
-  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.08);
-  width: 600px;
-  height: 817px;
-}
-.download {
-  position: relative;
-  font-weight: 500;
-}
-.download-parent {
-  position: absolute;
-  top: 858px;
-  left: calc(50% - 252px);
-  border-radius: var(--br-5xs);
-  background-color: var(--color-mediumaquamarine-100);
-  width: 504px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-xs) var(--padding-5xl);
-  box-sizing: border-box;
-  gap: var(--gap-9xs);
-  color: var(--color-white);
-}
-.recipts-item {
-  position: absolute;
-  top: 147px;
-  left: calc(50% - 300px);
-  border-radius: var(--br-base) var(--br-base) 0 0;
-  background-color: rgba(58, 199, 155, 0.32);
-  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.08);
-  width: 600px;
-  height: 118px;
-}
-.transfer-receipt {
-  position: absolute;
-  top: 187px;
-  left: calc(50% - 81px);
-  font-size: var(--font-size-xl);
-  text-align: center;
-}
-.amount {
+
+.amount1 {
   width: 216px;
   position: relative;
   font-weight: 600;
   display: inline-block;
   flex-shrink: 0;
 }
-.amount-parent {
+.amount-group {
   width: 504px;
   display: flex;
   flex-direction: row;
@@ -99,41 +45,89 @@
   display: inline-block;
   flex-shrink: 0;
 }
-.frame-parent,
-.generated-tue-02 {
+.frame-group,
+.body {
   position: absolute;
   color: var(--color-gray);
 }
-.frame-parent {
-  top: 305px;
-  left: 468px;
+
+.frame-group {
+  top: 30%;
+  left: 38%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-13xl);
+  /* border: 2px solid red; */
 }
-.generated-tue-02 {
-  top: 215px;
+
+.android-transfer-successful-child {
+  position: absolute;
+  top: 147px;
+  left: calc(50% - 300px);
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.08);
+  width: 600px;
+  height: 817px;
+  /* border: 2px solid red; */
+}
+.android-transfer-successful-item {
+  position: absolute;
+  top: 147px;
+  left: calc(50% - 300px);
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  background-color: rgba(58, 199, 155, 0.32);
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.08);
+  width: 600px;
+  height: 118px;
+}
+.tittle {
+  position: absolute;
+  top: 30%;
+  left: calc(50% - 81px);
+  font-size: var(--font-size-xl);
+  text-align: center;
+}
+.body {
+  top: 45px;
   left: calc(50% - 107px);
   font-size: var(--font-size-sm);
+  /* border: 2px solid red; */
 }
-.recipts-inner {
-  position: absolute;
-  bottom: 0;
-  left: 8px;
-  background-color: var(--color-white);
-  box-shadow: 0-4px 10px rgba(0, 0, 0, 0.1);
-  width: 1440px;
-  height: 68px;
-}
-.recipts {
-  width: 100%;
+
+
+.download1 {
   position: relative;
-  background-color: var(--color-aliceblue);
-  height: 1081px;
-  text-align: left;
-  font-size: var(--font-size-base);
+  font-weight: 500;
+}
+.download-group {
+  position: absolute;
+  top: 858px;
+  left: calc(50% - 252px);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-mediumaquamarine-100);
+  width: 504px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+  color: var(--color-white);
+}
+.text {
+  position: absolute;
+  top: calc(50% - 315.5px);
+  left: 5%;
+  width: 90%;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: center;
+  font-size: var(--font-size-xl);
   color: var(--color-black);
-  font-family: var(--font-inter);
+  border: 2px solid red;
 }
