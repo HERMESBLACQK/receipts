@@ -26,6 +26,7 @@
   left: calc(50% - 56px);
   font-size: 18px;
   letter-spacing: 0.02em;
+  border: 2px solid red;
 }
 .recipts-child {
   position: absolute;

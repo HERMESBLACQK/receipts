@@ -1,3 +1,125 @@
+.arrow-left-icon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+.arrow-left-container,
+.notification-container {
+  position: absolute;
+  top: 48px;
+  left: 10%;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  box-shadow: -1px 4px 4px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-mini);
+}
+.notification-container {
+  left: 90%;
+}
+
+.amount1 {
+  width: 216px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.amount-group {
+  width: 504px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.tue-02-apr {
+  width: 280px;
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  color: var(--color-black);
+  text-align: right;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frame-group,
+.body {
+  position: absolute;
+  color: var(--color-gray);
+}
+
+.frame-group {
+  top: 30%;
+  left: 38%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  /* border: 2px solid red; */
+}
+
+.android-transfer-successful-child {
+  position: absolute;
+  top: 147px;
+  left: calc(50% - 300px);
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.08);
+  width: 600px;
+  height: 817px;
+  /* border: 2px solid red; */
+}
+.android-transfer-successful-item {
+  position: absolute;
+  top: 147px;
+  left: calc(50% - 300px);
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  background-color: rgba(58, 199, 155, 0.32);
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.08);
+  width: 600px;
+  height: 118px;
+}
+.tittle {
+  position: absolute;
+  top: 187px;
+  left: calc(50% - 81px);
+  font-size: var(--font-size-xl);
+  text-align: center;
+}
+.body {
+  top: 215px;
+  left: calc(50% - 107px);
+  font-size: var(--font-size-sm);
+  /* border: 2px solid red; */
+}
+
+
+.download1 {
+  position: relative;
+  font-weight: 500;
+}
+.download-group {
+  position: absolute;
+  top: 858px;
+  left: calc(50% - 252px);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-mediumaquamarine-100);
+  width: 504px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+  color: var(--color-white);
+}
+
+
 @media only screen  and (max-width: 760px) {
   /* Your styles for small screens here */
   body{
