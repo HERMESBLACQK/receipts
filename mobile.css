@@ -31,7 +31,7 @@
         }
 
         .android-transfer-successful-child{
-          /* border: 2px solid green; */
+          border: 2px solid green;
           width: 90%;
           left: 5%;
         }
@@ -99,7 +99,7 @@
         }
         .download-group {
           position: absolute;
-          top: 900px;
+          top: 920px;
           left: calc(50% - 140px);
         
           width: 280px;
