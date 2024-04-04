@@ -28,6 +28,7 @@
     color: var(--color-black);
     text-align: left;
     left: 70%;
+    font-weight: 700;
   }
   .amount-group {
     align-self: stretch;
@@ -160,19 +161,7 @@
 
 }
 
-@media only screen and (min-width: 401px) and (max-width: 767px) {
-  /* Your styles for medium screens here */
 
-
-
-
-
-
-
-
-
-
-}
 
 
 
