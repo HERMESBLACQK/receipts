@@ -52,14 +52,14 @@
 }
 
 .frame-group {
-  top: 30%;
-  left: 38%;
+  top: 21%;
+  left: 41%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-13xl);
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 
 .android-transfer-successful-child {
@@ -85,10 +85,11 @@
 }
 .tittle {
   position: absolute;
-  top: 30%;
+  top: 0;
   left: calc(50% - 81px);
   font-size: var(--font-size-xl);
   text-align: center;
+  border: 2px solid red;
 }
 .body {
   top: 45px;
@@ -104,7 +105,7 @@
 }
 .download-group {
   position: absolute;
-  top: 858px;
+  top: 868px;
   left: calc(50% - 252px);
   border-radius: var(--br-5xs);
   background-color: var(--color-mediumaquamarine-100);
@@ -120,7 +121,7 @@
 }
 .text {
   position: absolute;
-  top: calc(50% - 315.5px);
+  top: 15%;
   left: 5%;
   width: 90%;
   flex-direction: column;
