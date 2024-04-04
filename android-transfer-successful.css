@@ -15,7 +15,6 @@
     background-color: var(--color-white);
     width: 90%;
     height: 90%;
-    border: 2px solid black;
   }
   .amount1,
   .n11001 {
@@ -65,7 +64,7 @@
   .frame-group {
     position: absolute;
     top: 242px;
-    left: 0;
+    left: 6%;
     width: 90%;
     display: flex;
     flex-direction: column;
